@@ -13,7 +13,6 @@ public class EcuacionCuadratica {
 	}
 	
 	public double solucion(){
-		
 		solucion = (-b+(Math.sqrt(b*b - 4*a*c)) ) / 2*a;
 		solucion = (-b-(Math.sqrt(b*b - 4*a*c)) ) / 2*a;
 		return solucion;
