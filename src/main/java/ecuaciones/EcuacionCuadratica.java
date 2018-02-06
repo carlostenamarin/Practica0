@@ -12,10 +12,13 @@ public class EcuacionCuadratica {
 		this.c = c;
 	}
 	
-	public double solucion(){
+	public double primeraSolucion(){
 		solucion = (-b+(Math.sqrt(b*b - 4*a*c)) ) / 2*a;
+		return solucion;
+	}
+	
+	public double segundaSolucion(){
 		solucion = (-b-(Math.sqrt(b*b - 4*a*c)) ) / 2*a;
 		return solucion;
-		
 	}
 }

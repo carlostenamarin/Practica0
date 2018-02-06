@@ -17,8 +17,5 @@ public class EcuacionLineal {
 		}
 		return 0;
 	}
-	
-	public double terminoIndependienteCero(){
-		return 0;
-	}
+
 }
